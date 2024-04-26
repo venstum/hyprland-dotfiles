@@ -1,0 +1,42 @@
+{
+    "output": "DP-2",
+    "layer": "top",
+    "position": "top",
+    "margin": "10 10 0",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 35,
+    "spacing": 4, 
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "tray"
+    ],
+    
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-icons": {
+            "default": [" ", " ", "  "]
+        },
+        "on-click": "pavucontrol"
+    },
+    
+    "network": {
+        "format-ethernet": "  ",
+        "format-disconnected": "⚠ ",
+	"on-click": "nm-connection-editor"
+    },
+
+    "tray": {
+	"icon-size": 18,
+        "spacing": 10
+    }
+
+}
