@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0px;
-    font-family: Termius Nerd Font;
+    font-family: Terminess Nerd Font;
     font-weight: bold;
     font-size: 16px;
     min-height: 0;
@@ -20,6 +20,7 @@
 window#waybar {
     border-radius: 15px;
     background: linear-gradient(black,transparent);
+    border: 1px solid #ffffff;
     color: #ffffff;
     padding: 0;
     margin: 0;
