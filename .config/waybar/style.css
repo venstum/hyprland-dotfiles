@@ -13,13 +13,13 @@
 
 #waybar {
     border: none;
-    background: linear-gradient(black,transparent);
+    background: linear-gradient(transparent);
     box-shadow: none;
 }
 
 window#waybar {
     border-radius: 15px;
-    background: linear-gradient(black,transparent);
+    background: linear-gradient(transparent);
     border: 1px solid #ffffff;
     color: #ffffff;
     padding: 0;
