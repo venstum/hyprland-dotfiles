@@ -33,3 +33,34 @@ window#waybar {
 #tray {
     margin-right: 10px; 
 }
+
+tooltip {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+tooltip label {
+    color: #ffffff;
+}
+
+#tray menu {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+#tray menu menuitem {
+    padding: 8px 16px;
+    color: #ffffff;
+}
+
+#tray menu menuitem:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#tray menu separator {
+    background-color: #ffffff;
+    margin: 4px 0;
+    opacity: 0.2;
+}
